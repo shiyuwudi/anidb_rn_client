@@ -28,8 +28,8 @@ export default function App() {
   return (
     <NavigationContainer>
       <Tab.Navigator>
-        <Tab.Screen name="Home" component={MainScreen} />
-        <Tab.Screen name="Settings" component={SettingsScreen} />
+        <Tab.Screen name="所有作品" component={MainScreen} />
+        <Tab.Screen name="我的" component={SettingsScreen} />
       </Tab.Navigator>
     </NavigationContainer>
   );
